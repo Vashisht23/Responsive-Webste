@@ -1,0 +1,254 @@
+body{
+    /* line height , font- size , font-family in same short hand property line */
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+/* global -  applicable to all */
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+ul{
+    
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header{
+    background-color: #ffc600;
+    border: 3px solid #f654ae;
+    padding-top: 30px;
+    min-height: 120px;
+}
+
+.details{
+    font-size: 15px;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+header a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    /* looks better font made bigger  */
+    font-size: 25px;
+    /* added font weight it made the font bolder */
+   
+}
+
+/* unorder list have padding by default */
+
+header a:hover{
+    font-weight: bold;
+
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding{
+    float: left;
+}
+
+header #branding h1{
+    margin: 0;
+}
+
+header nav{
+    float:right;
+    margin-top: 10px;
+
+}
+ /* added font weight it made the font bolder */
+ /* added id in h1 for displaying company name */
+#company-heading{
+    font-size:35px;
+    font-weight: 900;
+}
+
+
+
+
+
+/* Showcase */
+
+#showcase{
+
+    background: url(./img/showcase.jpg) no-repeat 0  -400px;
+    min-height: 400px;
+    color: #ffffff;
+    
+    text-align: center;
+    border: 3px solid #f654ae;
+}
+
+/* Getting inside tags */
+/* making font bigger and keeping margin-top */
+#showcase h1{
+    font-size: 60px;
+    margin-top: 120px;
+}
+
+
+/* newsletter */
+
+#newsletter{
+    background-color: #ffc600;
+    border: 3px solid #f654ae;
+    height: 120px;
+}
+
+#newsletter form{
+    float: right;
+    margin-top: 40px;
+}
+
+#newsletter input[type="email"]{
+    width: 250px;
+    height: 30px;
+}
+
+#newsletter h3{
+    font-weight: 900;
+    font-size: 25px;
+    float: left;
+    margin-top: 40px;
+}
+#newsletter button{
+    padding: 10px 25px;
+    background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+    color: #ffffff;
+}
+
+
+/*  Boxes */
+
+/* color is not white but grey in global  */
+#boxes{
+    /* margin-top: 20px; */
+    border: 3px solid #f654ae;
+
+}
+ #boxes .box{
+     margin-top: 20px;
+    text-align: center;
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+#about{
+    width: 65%;
+    float: left;
+}
+
+/* About us */
+
+#we-do{
+    width: 30%;
+    float: right;
+    background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+    margin-top: 30px;
+    height: 200px;
+    padding: 20px 15px;
+
+}
+
+/* main-col */
+
+article#main-col{
+    width: 65%;
+    float: left;
+}
+
+
+/* Services */
+#services li{
+    margin-bottom: 5px;
+    background: #e6e6e6;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    margin-right: 90px;
+}
+
+
+/* Sidebar */
+#sidebar{
+    background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+    width: 30%;
+    float: right;
+    padding: 10px 20px;
+    font-size: 20px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+
+#sidebar input[type="textarea"]{
+    width: 70%;
+    height: 80px;
+}
+
+#sidebar input[type="tel"]{
+    height: 25px;
+}
+
+#sidebar input[type="email"]{
+    height: 25px;
+}
+
+
+#sidebar button{
+    margin-top: 20px;
+    padding: 10px 35px;
+    background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+    color: #ffffff;
+}
+
+.form-check{
+    margin-bottom: 5px;
+}
+
+/* Media Queries */
+
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box,
+    article#main-col,
+    aside#sidebar{
+      float:none;
+      text-align:center;
+      width:100%;
+    }
+
+/* Footer */
+
+footer{
+     background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
+      height: 60px;
+      border: 3px solid #f654ae;
+     text-align: center;
+     /* Helped with adding spacing  from the top*/
+     padding: 10px 30px;
+    }
+
+
+
+   
