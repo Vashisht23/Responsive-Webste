@@ -260,14 +260,30 @@ footer{
   header a{
       font-size: 20px;
   }
+    /* brought changes here */
+  #company-heading{
+    font-size: 25px;
+  }
+
+  /* Address fits in one line */
+  /* company brand in one line */
+  .details{
+      font-size: 10px;
+  }
 
   #showcase h1{
     margin-top:40px;
+    font-size: 45px;
+    
   }
-    /* Newsletter size increased */
+    /* Newsletter height increased */
     /* Everything in same box */
   #newsletter{
       height: 200px;
+  }
+
+  #newsletter h3{
+      font-size: 15px;
   }
   #newsletter button, .quote button{
     display:block;
@@ -282,8 +298,18 @@ footer{
   #we-do{
     width: 85%;
     margin-bottom: 15px;
+    height: 250px;
   }
 
+  article#main-col{
+    width: 140%;
+}
+
+#page-title{
+    /* text-align: center; */
+    margin-right: 80px;
+
+}
   #sidebar button, #sidebar input[type="textarea"], #sidebar input[type="tel"] ,
   #sidebar input[type="email"]{
     width: 80%;
@@ -291,5 +317,10 @@ footer{
   }
   #sidebar{
       margin-bottom: 20px;
+  }
+
+  #sidebar form{
+      padding: 0  25px 0 0;
+      font-size: 15px;
   }
 }
