@@ -126,6 +126,7 @@ header nav{
     padding: 10px 25px;
     background: linear-gradient(180deg, #0252b8 0%, #3583ea 100%);
     color: #ffffff;
+    cursor: pointer;
 }
 
 
