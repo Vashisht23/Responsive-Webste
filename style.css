@@ -223,6 +223,11 @@ footer{
 
 
 /* Media Queries */
+@media(max-width:991px){
+   .upper-header{ text-align: center;}
+   header nav{ flex-direction: column;}
+   nav ul{ display: flex;}
+}
 
 @media(max-width: 768px){
     header #branding,
@@ -311,4 +316,12 @@ footer{
       padding: 0  25px 0 0;
       font-size: 15px;
   }
+}
+
+/* Mobile Devices */
+
+@media(max-width: 480px){
+    .container{width: 100%;}
+    #company-heading{ font-size: 28px; padding: 16px 0;}
+    header li{padding: 0 12px;}
 }
