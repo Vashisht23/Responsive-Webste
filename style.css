@@ -22,8 +22,7 @@ ul{
 header{
     background-color: #ffc600;
     border: 3px solid #f654ae;
-    padding-top: 30px;
-    min-height: 120px;
+    padding: 30px 0;
 }
 
 .details{
@@ -35,10 +34,7 @@ header a{
     color: black;
     text-decoration: none;
     text-transform: uppercase;
-    /* looks better font made bigger  */
     font-size: 25px;
-    /* added font weight it made the font bolder */
-   
 }
 
 /* unorder list have padding by default */
@@ -53,29 +49,22 @@ header li{
     padding: 0 20px 0 20px;
 }
 
-header #branding{
-    float: left;
-}
-
-header #branding h1{
-    margin: 0;
-}
-
 header nav{
-    float:right;
     margin-top: 10px;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
- /* added font weight it made the font bolder */
- /* added id in h1 for displaying company name */
+nav ul{
+    display: inline-block;
+}
+
 #company-heading{
     font-size:35px;
     font-weight: 900;
+    display: inline-block;
+    margin: 0;
 }
-
-
-
-
 
 /* Showcase */
 
